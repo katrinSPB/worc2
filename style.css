@@ -1,0 +1,83 @@
+
+
+/* основные */
+* {
+box-sizing: border-box;
+font: bold 20px Arial, sans-serif;	
+font-style: italic;
+}
+
+.wrapper{
+    width: 500px;
+    height: 500px;
+    background: url(./img/Безымянный-2.svg) ; 
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    display: table;
+    justify-content: center;
+    }  
+
+/* корпус коткулятора */
+#cotculator {
+    margin-top: 120px;
+    margin-left: 90px;
+      width: 320px;
+      height: 280px;
+      padding: 18px 18px 9px;
+      background: linear-gradient(hsla(310, 84%, 24%, 0.855), #ac03fa);
+      border-radius: 50px;
+      box-shadow: 0px 4px rgb(88, 73, 109), 0px 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+input{
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: rgb(216, 198, 231);
+  border-radius: 20px;
+  box-shadow: 0px 4px rgb(121, 25, 116), 0px 10px 15px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  }
+
+  /*внешность кнопок*/
+.keys {
+    margin: 5px;
+    width: 40px;
+    height: 36px;
+    background: rgb(214, 119, 221);
+    border: #ff9fa8;
+    border-radius: 20px;
+    box-shadow: 0px 4px #70256c;
+    /*цвет и размер цифръ*/
+    color: #e7e6e7;
+    cursor: pointer; /* Иконка указателя/руки */
+    float: left;
+    display: flex;
+    }
+    
+    .operator { 
+    width:40px;
+    height: 36px;
+    background: #dce98a;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px #e772e1;
+    }
+ 
+    /* эффекты при нажатии кнопочек */
+    .keys:hover{
+        background: #d494e7;
+        box-shadow: 0px 6px #461f44;
+        color: white;
+    }
+    
+    /* эффекты при нажатии кнопочек */
+    .operator:hover {
+        background: rgb(236, 238, 103);
+        box-shadow: 0px 6px #d642c2;
+        color: white;
+    }
+    
